@@ -7,6 +7,6 @@ services:
     environment:
       - SMTP_SERVER=smtp.gmail.com
       - SMTP_PORT=587
-      - SMTP_USERNAME=mdpatil2004@gmail.com
-      - SMTP_PASSWORD=cssr tkhj smih loss
-      - SENDER_EMAIL=mdpatil2004@gmail.com
+      - SMTP_USERNAME=your-mailid
+      - SMTP_PASSWORD=your-smtp-server-password
+      - SENDER_EMAIL=your-mailid

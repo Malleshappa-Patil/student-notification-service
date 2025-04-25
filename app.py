@@ -11,9 +11,9 @@ app = Flask(__name__)
 # Configuration (You might want to move these to environment variables)
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-SMTP_USERNAME = 'mdpatil2004@gmail.com'
-SMTP_PASSWORD = 'cssr tkhj smih loss'
-SENDER_EMAIL = 'mdpatil2004@gmail.com'
+SMTP_USERNAME = 'your-mailid'
+SMTP_PASSWORD = 'you-smtp-server-password'
+SENDER_EMAIL = 'your-mailid'
 
 reminders = []
 
