@@ -26,44 +26,44 @@ Follow these steps to set up the Student Notification Service on your local mach
    cd student-notification-service
 
 2. **Build and Run with Docker**:
-docker-compose up --build
-This will start the service and make it available at http://127.0.0.1:5000.
+    docker-compose up --build
+    This will start the service and make it available at http://127.0.0.1:5000.
 
 3. **Configuration**:
-Update the SMTP credentials in app.py (e.g., SMTP_USERNAME and SMTP_PASSWORD) with your Gmail account details or an app-specific password if 2FA is enabled.
-Ensure your Gmail account allows "less secure apps" or use an app-specific password.
+    Update the SMTP credentials in app.py (e.g., SMTP_USERNAME and SMTP_PASSWORD) with your Gmail account details or an app-specific password if 2FA is enabled.
+    Ensure your Gmail account allows "less secure apps" or use an app-specific password.
 
 
 **Usage**
-Open your browser and visit http://127.0.0.1:5000.
-Fill out the form with:
-Student Name (optional)
-Student Email (required)
-Email Subject (required)
-Email Body (required)
-Reminder Date and Time (required)
-Reminder Subject (required)
-Reminder Message (required)
-Click "Send Notification" to send an immediate email and/or schedule a reminder.
-The service checks for reminders every minute. Ensure the server remains running for reminders to be sent.
+    1. Open your browser and visit http://127.0.0.1:5000.
+    2. Fill out the form with:
+            Student Name (optional)
+            Student Email (required)
+            Email Subject (required)
+            Email Body (required)
+            Reminder Date and Time (required)
+            Reminder Subject (required)
+            Reminder Message (required)
+    3. Click "Send Notification" to send an immediate email and/or schedule a reminder.
+    4. The service checks for reminders every minute. Ensure the server remains running for reminders to be sent.
 
 
 **Offline Mode**
-If the server is down, a friendly message will appear: "Oops! Service is Down". Simply try again later or restart the server if you’re the administrator.
+    If the server is down, a friendly message will appear: "Oops! Service is Down". Simply try again later or restart the server if you’re the administrator.
 
 **Technologies**
-Framework: Flask
-Language: Python 3.8+
-Email: SMTP (Gmail)
-Offline Support: Service Workers
-Containerization: Docker
+    Framework: Flask
+    Language: Python 3.8+
+    Email: SMTP (Gmail)
+    Offline Support: Service Workers
+    Containerization: Docker
 
 **Contact**
-For questions or support, feel free to open an issue on this repository or contact the maintainer:
+    For questions or support, feel free to open an issue on this repository or contact the maintainer:
 
-GitHub: Malleshappa-Patil
-Email: mdpatil2004@gmail.com
+    GitHub: Malleshappa-Patil
+    Email: mdpatil2004@gmail.com
 
 **Acknowledgments**
-Thanks to the Flask community for the robust framework.
-Inspired by the need for simple student notification systems.
+    Thanks to the Flask community for the robust framework.
+    Inspired by the need for simple student notification systems.
